@@ -5,7 +5,7 @@ const pg = require('pg');
 const cors = require('cors');
 app.use(
   express.static(
-    path.join(__dirname, "../Full Stack React/favlinks-main", "build")
+    path.join(__dirname, "../Full-Stack-React/favlinks-main", "build")
   )
 );
 app.use(express.static("public"));
